@@ -63,6 +63,3 @@ PRODUCT_COPY_FILES += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
-
-#Gapps
-$(call inherit-product, vendor/gapps/config.mk)
