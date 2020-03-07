@@ -28,6 +28,9 @@ PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/vince \
     device/xiaomi/msm8953-common
 
+# Treble
+PRODUCT_USE_VNDK_OVERRIDE := true
+
 # Inherit from msm8953-common
 $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
 
